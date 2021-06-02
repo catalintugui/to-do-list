@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background: #19547b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+}
+
+.input-container input,
+.input-container button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+.input-container button {
+  color: #007CC7;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.input-container input {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.input-container button:hover {
+  background: #007CC7;
+  color: white;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+  font-size: 2rem;
+  color: black;
+  font-size: 2rem;
+  border: none;
+  background: white;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+li button {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: none;
+  background: white;
+}
+
+li button:hover {
+  background: #007CC7;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
