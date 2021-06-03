@@ -41,10 +41,6 @@ class App extends Component {
     this.setState({list: updatedList})
   }
 
-  itemCompleted(){
-
-  }
-
   render(){
   return (
     <div className="App">
